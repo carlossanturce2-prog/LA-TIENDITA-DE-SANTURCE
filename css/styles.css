@@ -1,0 +1,98 @@
+body {
+
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(242, 243, 239);
+   
+   
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: 30px 200px 50px 30px;
+    column-gap: 2em;
+    row-gap: .2em;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+    
+    
+}
+
+.container div{
+    background-color: rgb(177, 192, 194);
+  
+    border-radius: 10px;
+     
+}
+
+.container div:hover {
+
+    border: 1px solid rgb(93, 83, 83);
+}
+
+header {
+
+   display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+    background-color: rgb(236, 67, 242);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    justify-items: center;
+    align-items: center;
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+
+.totebags {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+    font-size: 3em;
+    background-color: bisque;
+    font-style: oblique;
+    color: red;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.taqueras {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+    font-size: 3em;
+    background-color: bisque;
+    font-style: oblique;
+    color: rgb(67, 23, 243);
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+
+
+}
+
+.taqueras:hover {
+
+    border: 1px solid red
+}
+
+.totebags:hover {
+
+    border: 1px solid red
+}
